@@ -18,16 +18,16 @@ echo $third;
 ?>
 <br/>
 Lowercase: <?php echo strtolower($third); ?><br />
-uppercase: <?php echo strtolower($third); ?><br />
+uppercase: <?php echo strtoupper($third); ?><br />
 uppercase first: <?php echo ucfirst($third); ?><br />
-uppercase words: <?php echo ucwrds($third); ?><br />
+uppercase words: <?php echo ucwords($third); ?><br />
 
 
 <br/>
 Length <?php echo strlen($third); ?><br/><br/>
-Trim: <?php eco "A" . trim("B C D") . "E"; ?><br/><br/>
+Trim: <?php echo "A" . trim("B C D") . "E"; ?><br/><br/>
 Find: <?php echo strstr ($third, "brown"); ?><br/><br/>
-Replace by string: <?php echo str_replace("quick" "super-fast", $third); ?>
+Replace by string: <?php echo str_replace("quick", "super-fast", $third); ?>
 <br/><br/>
 
 Repeat: <?php echo str_repeat ($third, 2)?> <br/> <br/>
